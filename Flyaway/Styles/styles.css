@@ -1,0 +1,66 @@
+
+.center{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 200px;
+	height:200px;
+}
+.center1{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 800px;
+	height:400px;
+}
+h1{
+	font-family:Lucida Console;
+	font-size:50px;
+	text-align:center;
+	color:red;
+}
+	
+h2{
+	font-family:Lucida Console;
+	font-size:30px;
+	text-align:center;
+	color:rgb(126, 228, 58);
+}		
+hr{
+	border-top: 1px solid rgb(98, 37, 148);
+}
+ul.one {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(19, 42, 71);
+	
+}
+
+li {
+	float: left;
+	
+}
+
+li a {
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size:25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: rgb(116, 96, 124);
+}
+table.productdata{
+	background-color:rgb(221, 216, 216);
+	border:10px  groove darkblue;
+	width:1330px;
+	color:rgb(147, 189, 92);
+}
+
+}

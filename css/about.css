@@ -1,0 +1,46 @@
+body
+	{
+		
+		background-image: url(../images/img7.jpeg);
+	
+	}
+
+p
+{
+	text-align:left;
+	font-size:27px;
+	font-family:italic;
+}
+
+h4
+{	
+	background-color:white;
+	font-size:60px;
+	font-family:italic;
+	font-color:black;
+	
+}
+
+#abor
+{
+	
+	border-style:double;
+	border-width:8px;
+	border-left-color:black;
+	border-right-color:black;
+	border-top-color:black;
+	border-bottom-color:black;
+	
+}
+
+
+#box
+{	
+	margin-bottom:100px;
+	float:center-right;
+	padding: 50px;
+	width: 80%;
+	background-image: url(../images/img7.jpeg);
+}
+
+

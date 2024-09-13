@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel = "stylesheet" text = "text/css" href = "css/signup.css">
+	<script src = "js/signup.js"></script>
+ 
+ <title> Sign Up </title>
+ 
+ <header>	
+			<img class = "logo" src = "images/HeadPic.jpg" width = 100% height="300px">
+
+		</header>
+		<ul class="one" position="fixed">
+			<li><a href="#">Home</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="about.html">About us</a></li>
+		</ul>
+ 
+ </head>
+
+
+<hr>
+ <body>
+ <div align=center id ="bor">
+	 <form action = "signup.php" id = "signupform" target = "_self" method = "POST" onsubmit = "return checkPassword()">
+		<h3>SIGN UP</h3><br/>
+			   
+		<label>First Name</label>&nbsp:&nbsp<br>
+		<input type = "text" name = "field1" id = "fname" placeholder = "First Name" pattern = ".*[a-zA-Z]" required ><br /><br />
+			   
+		<label>Last Name</label>&nbsp:&nbsp<br>
+		<input type = "text" name = "field2" id = "lname" placeholder = "Last Name" pattern = ".*[a-zA-Z]" required ><br /><br />
+		
+		<label>NIC No</label>&nbsp:&nbsp<br>
+		<input type = "nic" name = "id" id = "nic" placeholder="123456789V" pattern = "[0-9VvXx]{10}" required ><br /><br />
+		
+		<label>Date of Birth</label>&nbsp:&nbsp<br>
+		<input type = "date" name = "field4" id = "dob" required ><br /><br />
+			    	   
+		<label>Gender</label>&nbsp:&nbsp
+		<input type = "radio" name = "gender" value = "male" checked >Male
+		<input type = "radio" name = "gender" value = "female" checked >Female<br /><br />
+			   
+		<label>E-mail Address</label>&nbsp:&nbsp<br>
+		<input type = "text" name = "field5" id = "email" placeholder="e-mail" pattern = "[a-z0-9._%+-*]+@[a-z0-9.-]+\.[a-z][2-3]" required ><br /><br />
+			   
+		<label>Mobile Number</label>&nbsp:&nbsp<br>
+		<input type = "phone" name = "field6" id = "mn" placeholder="07XXXXXXXX" pattern = "[0-9]{10}" required ><br /><br />
+			   
+		<label>Password</label>&nbsp:&nbsp<br>
+		<input type = "password" id = "pwd" placeholder="password" pattern = "[A-Z0-9a-z#./@]{5,10}" required ></br /><br />
+			   
+		<label>Re-Enter Password</label>&nbsp:&nbsp<br>
+		<input type = "password" name = "field7" id = "cpwd" placeholder="Re-enter password" required><br /><br />
+			   
+		<input type = "checkbox" id = "chkbx" onclick = "enablesubmitbtn()"  > I Agreed with privacy policy and terms<br /><br />
+		<button type = "submit"  id = "sub" disabled>Submit</button><br><br>
+		
+		
+	</form>
+	<p style = "color:red;background-color:white; align:center;font-size:30px;">Already a member ? : &nbsp <a href = "signin.html" >SIGN IN </a></p>
+	
+ </div>
+ 
+ <button type = "submit"><a href = "signupr.php">Stored Data</a></button>
+</body>
+<hr>
+ <footer class="footer">
+		<div class="footer__addr">
+		  <h1 class="footer__logo">flyaway</h1>
+			  
+		  <h2>About</h2>
+		  
+		  <address>
+			
+
+			Tourist Board License No : TS/TA/1387<br><br>
+			Civil Aviation License No: A-922 <br><br>
+			© 2020 Flyaway (Pvt) LTD Sri Lanka (Reg: PV72478) <br><br>
+			
+			<br><br>
+			
+			<br>
+		  </address>
+		</div>
+		
+		<ul class="footer__nav">
+		  <li class="nav__item">
+			<h2 class="nav__title">Media</h2>
+	  
+			<ul class="nav__ul">
+			  <li>
+				<a href="#">Facebook</a>
+				<br>
+			  </li>
+	  
+			  <li>
+				  <br>
+				  <br>
+				<a href="#">Twitter</a>
+			  </li>
+				  <br>
+			  <li>
+				<a href="#">Instergram</a>
+			  </li>
+			</ul>
+		  </li>
+		  
+		  <li class="nav__item nav__item--extra">
+			<h2 class="nav__title">Support</h2>
+			
+			<ul class="nav__ul">
+			  <li>
+				<a href="#">Contact us</a>
+			  </li>
+			  
+			  <li>
+				<a href="#">F&Q</a>
+			  </li>
+			  
+			</ul>
+		  </li>
+
+
+</footer>
+
+
+<html>

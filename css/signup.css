@@ -1,0 +1,94 @@
+body
+	{
+		
+		background-image: url(../images/img2.jpg);
+	
+	}
+	
+	
+#signupform
+	{
+		font-size:20px;
+		width:50%;
+		font-family:Arial;
+		text-align:left;
+		margin-left:290px;	
+	}
+	
+h3
+	{
+		margin-left:100;
+		font-size:40px;
+		font-family:Arial;
+		font-color:black;
+	}
+
+#fname
+	{
+		width :400px
+	
+	}
+
+#lname
+	{
+		width :400px;
+	
+	}
+
+#nic
+	{
+		width :400px;
+	}
+
+#dob
+	{
+		width :400px;
+	}
+
+#email
+	{
+		width :400px;
+	}
+
+#mn
+	{
+		width :400px;
+	}
+
+#pwd
+	{
+		width :400px;
+	
+	}
+
+#cpwd
+	{
+		width :400px;
+	
+	}
+
+#sub
+	{
+		font-size:15px;
+		background-color:#adad85;
+		width:150px;
+		color:black;
+		padding:5px 15px;
+		cursor: pointer;
+					
+	}
+
+#bor
+	{
+	
+		border-style:double;
+		border-width:8px;
+		border-left-color:black;
+		border-right-color:black;
+		border-top-color:black;
+		border-bottom-color:black;
+	
+	}
+	p{
+		background-color:white;
+	}

@@ -1,0 +1,73 @@
+body
+	{
+		background-image: url(../images/img5.png);
+	}
+
+#signinform
+	{
+		font-size:20px;
+		width:50%;
+		font-family:Arial;
+		text-align:left;
+		margin-left:290px;
+	}
+	
+h3
+	{
+		margin-left:270;
+		font-size:40px;
+		font-family:Arial;
+		font-color:black;
+		
+	}
+	
+#lpwd
+	{
+		width :400px;
+	}
+	
+#um
+	{
+		width :400px;
+	}
+#com
+	{
+		width :400px;
+	}
+	
+#bord
+{
+	border-style:double;
+	border-width:8px;
+}
+
+#signinbtn
+	{
+		font-size:15px;
+		background-color:#1affff;
+		width:150px;
+		color:black;
+		padding:8px 20px;
+		margin-left:auto;
+		margin-right:auto;
+		cursor: pointer;
+	
+	}
+
+#rpw
+	{
+		font-size:15px;
+		background-color:#ff9999;
+		width:150px;
+		color:black;
+		padding:8px 20px;
+		cursor: pointer;
+		margin-bottom:10px;
+	}
+
+e1
+	{
+		background-color:#ccffff;
+		font-size:25px;
+		font-family:italic;
+	}

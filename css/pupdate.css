@@ -1,0 +1,61 @@
+body
+	{
+		background-image: url(../images/img2.jpg);
+	}
+
+e1
+	{
+		background-color:#ccffff;
+		font-size:25px;
+		font-family:italic;
+	}
+	
+h3
+	{
+		font-size:35px;
+		font-family:italic;
+		margin-left:auto;
+		margin:center;
+	}
+	
+#nic
+	{
+		width :400px;
+	}
+
+#opwd
+	{
+		width :400px
+	}
+
+#npwd
+	{
+		width :400px;
+	}
+
+#cnpwd
+	{
+		width :400px;
+	}
+	
+#ubord
+	{
+		border-style:double;
+		border-width:8px;
+		border-left-color:black;
+		border-right-color:black;
+		border-top-color:black;
+		border-bottom-color:black;
+	}
+	
+#updatebtn
+	{
+		font-size:15px;
+		background-color:#ff9999;
+		width:150px;
+		color:black;
+		padding:8px 20px;
+		cursor: pointer;
+	}
+
+	
